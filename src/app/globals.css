@@ -1,0 +1,74 @@
+.examples {
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+}
+
+.example {
+  display: flex;
+  border: 2px solid black;
+  padding: 1rem;
+  gap: 4rem;
+}
+
+.grid .row {
+  display: flex;
+}
+
+:root {
+  --pink: rgb(229, 58, 163);
+  --maroon: rgb(146, 18, 49);
+  --red: rgb(249, 60, 49);
+  --orange: rgb(255, 133, 27);
+  --yellow: rgb(255, 220, 0);
+  --green: rgb(79, 204, 48);
+  --blue: rgb(30, 147, 255);
+  --lightblue: rgb(0, 212, 255);
+  --gray: rgb(153, 153, 153);
+  --black: rgb(0, 0, 0);
+}
+
+.cell {
+  width: 1rem;
+  height: 1rem;
+}
+
+.cell-0 {
+  background-color: var(--black);
+}
+
+.cell-1 {
+  background-color: var(--blue);
+}
+
+.cell-2 {
+  background-color: var(--red);
+}
+
+.cell-3 {
+  background-color: var(--green);
+}
+
+.cell-4 {
+  background-color: var(--yellow);
+}
+
+.cell-5 {
+  background-color: var(--gray);
+}
+
+.cell-6 {
+  background-color: var(--pink);
+}
+
+.cell-7 {
+  background-color: var(--blue);
+}
+
+.cell-8 {
+  background-color: var(--lightblue);
+}
+
+.cell-9 {
+  background-color: var(--gray);
+}
